@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soma de Matrizes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Soma de Matrizes 2x2</h1>
+
+    <div class="matriz">
+      <h3>Matriz A</h3>
+      <input type="number" id="a00">
+      <input type="number" id="a01">
+      <input type="number" id="a10">
+      <input type="number" id="a11">
+    </div>
+
+    <div class="matriz">
+      <h3>Matriz B</h3>
+      <input type="number" id="b00">
+      <input type="number" id="b01">
+      <input type="number" id="b10">
+      <input type="number" id="b11">
+    </div>
+
+    <button onclick="somarMatrizes()">Somar</button>
+
+    <div class="matriz resultado" id="resultado">
+      <h3>Resultado (A + B)</h3>
+      <div id="res00">-</div>
+      <div id="res01">-</div>
+      <div id="res10">-</div>
+      <div id="res11">-</div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
